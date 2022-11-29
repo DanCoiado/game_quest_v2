@@ -1,0 +1,12 @@
+
+.btn_S {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    background-color: transparent;
+}

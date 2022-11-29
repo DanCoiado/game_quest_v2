@@ -1,0 +1,46 @@
+
+.FundoTotal{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.FundoApp {
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    url(./../../../images/ImagemFundo.svg);
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 768px;
+    width: 1280px;
+    border-radius: 30px;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5))
+                       */
+}
+
+
+
+.Fun-app-logo{
+    filter: brightness(100%);
+}
+
+.Botao {
+    height: 70px;
+    width: 230px;
+    color: white;
+    background-color: #7630D9;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    display: flex;
+    font-size: 40px;
+    margin-top: 25px;
+}

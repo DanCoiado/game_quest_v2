@@ -1,0 +1,148 @@
+
+.cadastro-FundoTotal{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.cadastro-FundoApp {
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./../../../images/ImagemFundo.svg);
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 768px;
+    width: 1280px;
+    border-radius: 30px;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5))
+                       */
+}
+
+.cadastro-FundoBranco{
+    height: 668px;
+    width: 1080px;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    display: flex;
+}
+
+.cadastro-DivEsquerda{
+    height: 668px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.cadastro-gradient-LogoQuest{
+    height: 334px;
+    width: 540px;
+}
+
+.cadastro-LogoQuest{
+    height: 334px;
+    width: 540px;    
+}
+
+.cadastro-Cadastro{
+    height: 334px;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-size: 30px;
+    padding-top: 0px;
+}
+
+.btn-Login {
+    background-color: #055566;
+    height: 60px;
+    width: 200px;
+    border-radius: 15px;
+    color: white;
+    border-color: #055566;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    display: flex;
+}
+
+.botao-Cadastro{
+    background-color: #055566;
+    height: 60px;
+    width: 200px;
+    border-radius: 15px;
+    color: white;
+    border-color: #055566;
+    font-size: 30px;
+}
+
+.cadastro-DivDireita{
+    height: 668px;
+    width: 540px;
+    background-color: transparent;
+    border-radius: 30px;
+    flex-direction: column;
+
+}
+
+.cadastro-Texto-Login{
+    height: 100px;
+    width: 540px;
+    background-color: transparent;
+    border-radius: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.cadastro-Div-Forms{
+    background-color: transparent;
+    height: 568px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cadastro-Forms-Containt{
+    height: 334px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.cadastro-Forms-Input-Container{
+
+}
+
+.cadastro-Login{
+    height: 167px;
+    width: 540px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.botao-Login{
+    background-color: #7630D9;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    color: white;
+    border-color: #7630D9;
+}
